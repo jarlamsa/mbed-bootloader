@@ -5,11 +5,12 @@ Following table is parsed automatically by build scripts, so follow the format E
 |TARGET|BOOTLOADER_BIN|HEADER_OFFSET|APP_OFFSET|UPDATE_HEADER_OFFSET|UPDATE_APP_OFFSET|
 |------|--------------|-------------|---------|--------------------|------------------|
 |DISCO_L475VG_IOT01A|../../BUILD/mbed_app/DISCO_L475VG_IOT01A/GCC_ARM/mbed-bootloader.bin|0x8000|0x8400|0x80000|0x80070|
-|K64F|../../BUILD/mbed_app/K64F/GCC_ARM/mbed-bootloader.bin|0x8000|0x8400|0x80000|0x80070|
+|K64F|../../BUILD/K64F/GCC_ARM/mxrt_bootl.bin|0x8000|0x8400|0x80000|0x80070|
 |NRF52840_DK|../../BUILD/mbed_app/NRF52840_DK/GCC_ARM/mbed-bootloader.hex|0x8000|0x8400|0x80000|0x80070|
 |NUCLEO_F303RE|../../BUILD/mbed_app/NUCLEO_F303RE/GCC_ARM/mbed-bootloader.bin|0x8000|0x8400|0x40000|0x40070|
 |NUCLEO_F411RE|../../BUILD/mbed_app/NUCLEO_F411RE/GCC_ARM/mbed-bootloader.bin|0x8000|0x8400|0x40000|0x40070|
 |NUCLEO_F429ZI|../../BUILD/mbed_app/NUCLEO_F429ZI/GCC_ARM/mbed-bootloader.bin|0x8000|0x8400|0x100000|0x100070|
+|MIMXRT1050_EVK|../../BUILD/MIMXRT1050_EVK/GCC_ARM/mxrt_bootl.bin|0x10000|0x10400|0x240000|0x240070|
 
 
 ## Finding the values
